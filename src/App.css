@@ -10,6 +10,17 @@ body{
 h1{
   text-align: center;
 }
+.note{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  font-size: 1.5em;
+}
 
 /* #root {
   max-width: 1280px;

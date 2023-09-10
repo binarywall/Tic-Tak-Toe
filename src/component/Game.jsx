@@ -62,6 +62,10 @@ function Game() {
       <ScoreBoard scores={scores} xPlay={xPlay}/>
       <Board board={board} onClick={gameOver?resetBoard:handeleboxClick}/>
       <Reset resetBoard={resetBoard}/>
+      <div className='center'>
+        <span className='note'>Note :</span>
+        <span className='content'>For reset scoreboard click on refresh icon on the left side of browser. or use <strong>F5</strong> (function key) </span>
+      </div>
     </div>
   )
 }
